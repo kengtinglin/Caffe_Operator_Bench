@@ -3,20 +3,30 @@
 This is a Caffe2 operator microbenchmark.
 
 ### How to use
-`cd [OPERATOR]`
+```sh
+cd [OPERATOR]
+```
 
 If you want to get the execution time
 
 Using CPU
 
-`python3 [FILENAME]`
+```sh
+python3 [FILENAME]
+```
 
 Using GPU
 
-`python3 [FILENAME] --use-gpu`
+```sh
+python3 [FILENAME] --use-gpu
+```
 
-If you want to get the GPU data transfer time
+If you want to get the CPU-GPU data transfer time
 
-`nsys profile --trace=cuda python3 [FILENAME] --use-gpu`
+```sh
+nsys profile --trace=cuda python3 [FILENAME] --use-gpu
+```
 
-`nsys stats [*.qdrep]`
+```sh
+nsys stats [.qdrep]  // Output file from nsys profile
+```
