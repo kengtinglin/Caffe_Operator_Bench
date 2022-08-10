@@ -4,7 +4,7 @@ This is a Caffe2 operator microbenchmark.
 
 ## How to use
 ### Roofline
-If you want to know the intensity in advance and draw the Roofline, you should add config of operator like we provide.
+If you want to know the intensity per batch in advance and draw the Roofline, you should add config of operator like we provide.
 
 Example:
 ```sh
