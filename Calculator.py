@@ -39,10 +39,10 @@ def get_intensity(object):
         Write = object['batch_size'] * object['embedding_col']
         Param = object['embedding_row'] * object['embedding_col']
     intensity = round(FLOPs / ((Read + Write)*dbyte), 2)
-    return intensity
 
+    return intensity
 
 
 if __name__ == "__main__":
     args = config_parse()
-    print(get_intensity(args))
+    print(f'This operator intensity is: {get_intensity(args)}')
