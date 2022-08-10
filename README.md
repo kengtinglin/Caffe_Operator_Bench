@@ -9,7 +9,7 @@ If you want to know the intensity in advance and draw the Roofline, you should a
 Example:
 ```sh
 cd Roofline
-python3 Roofline.py --config-file Config_Conv.json
+python3 Roofline.py --config-file Config/Config_Conv.json
 ```
 ### Operator Microbenchmark
 ```sh
