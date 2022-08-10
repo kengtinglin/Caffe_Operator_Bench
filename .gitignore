@@ -1,0 +1,7 @@
+*.txt
+*.sqlite
+*.qdrep
+*.sh
+rm1/
+rm2/
+rm3/
