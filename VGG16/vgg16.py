@@ -124,7 +124,7 @@ def benchmark_vgg16(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="minimal benchmark for sparse lengths sum.")
+        description="minimal benchmark for vgg16.")
     parser.add_argument(
         "--batch-size", type=int, default=1,
         help="The batch size.")

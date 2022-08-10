@@ -1,0 +1,15 @@
+{
+    "operator": "Conv",
+    "batch_size": 1,
+    "input_width": 224,
+    "input_height": 224,
+    "input_channel": 64,
+    "kernel_num": 64,
+    "kernel_height": 3,
+    "kernel_width": 3,
+    "kernel_channel": 64,
+    "output_width": 224,
+    "output_height": 224,
+    "output_channel": 64,
+    "dtype": "float"
+}

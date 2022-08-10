@@ -83,7 +83,7 @@ def benchmark_fc(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="minimal benchmark for sparse lengths sum.")
+        description="minimal benchmark for fully connected.")
     parser.add_argument(
         "--batch-size", type=int, default=1,
         help="The batch size.")

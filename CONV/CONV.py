@@ -53,7 +53,7 @@ def benchmark_CONV(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="minimal benchmark for sparse lengths sum.")
+        description="minimal benchmark for convolution.")
     parser.add_argument(
         "--batch-size", type=int, default=1,
         help="The batch size.")

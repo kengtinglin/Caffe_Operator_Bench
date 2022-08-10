@@ -1,0 +1,9 @@
+{
+    "operator": "SLS",
+    "batch_size": 1,
+    "embedding_row": 4000000,
+    "embedding_col": 32,
+    "indices_per_lookup": 80,
+    "embedding_num": 1,
+    "dtype": "float"
+}
