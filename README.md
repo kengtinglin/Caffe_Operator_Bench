@@ -2,7 +2,15 @@
 
 This is a Caffe2 operator microbenchmark.
 
-### How to use
+## How to use
+If you want to know the intensity in advance, you should add config of operator like we provide.
+
+For example
+```sh
+python3 Calculator.py --config-file Config_Conv.json
+```
+
+
 ```sh
 cd [OPERATOR]
 ```

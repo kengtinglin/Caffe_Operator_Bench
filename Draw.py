@@ -1,6 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
-import math  
+import math
+from Calculator import intensity
 
 Hardware_cal = []
 Hardware_bw = []
