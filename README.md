@@ -39,4 +39,4 @@ nsys stats [.qdrep]  // Output file from nsys profile
 ## Supported Operators
 - Convolution
 - Fully Connected
-- SparseLegnthsSum
+- SparseLengthsSum
