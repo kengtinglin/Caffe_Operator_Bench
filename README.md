@@ -3,6 +3,10 @@
 This is a Caffe2 operator microbenchmark.
 
 ## How to use
+### Environment Setup
+```sh
+pip install -r requirements.txt
+```
 ### Roofline
 If you want to know the intensity per batch in advance and draw the Roofline, you should add config of operator like we provide.
 
